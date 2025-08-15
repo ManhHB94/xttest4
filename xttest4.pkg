@@ -1,0 +1,6 @@
+v 1.2
+d xttest4 — Kezdi test for heteroskedasticity in fixed effects models with large N small T
+d Author: Hoang Ba Manh
+d Version: 1.2 15 Aug 2025
+f xttest4.ado
+f xttest4.sthlp
