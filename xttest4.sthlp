@@ -1,9 +1,9 @@
 {smcl}
 
-help for {hi:xttest4}                            (Version 1.1, 12 Aug 2025)
+help for {hi:xttest4}                            (Version 1.2, 15 Aug 2025)
 
 
-{title: Kézdi (2003) test for heteroscedasticity in Fixed Effects Model with large N, small T}
+{title: Kezdi (2003) test for heteroscedasticity in Fixed Effects Model with large N, small T}
 
 {p 8 16 2}    {cmd: xttest4} 
 
@@ -14,7 +14,7 @@ Data must be {help xtset} and {cmd: xtbalance2} command ({cmd:ssc install xtbala
 {title:Description}
 
 {cmd:xttest4} computes three test statistics (h1, h2, h3) for the three null hypotheses 
-as described in Kézdi (2003):
+as described in Kezdi (2003):
 
 {p 4 8 2} H1: Cross-sectional homoskedasticity.
 
@@ -34,7 +34,7 @@ More specifically:
 
 {p 4 8 2} H3 implies that e_it is the spherical error term, e_it~IID(0, sigma^2).
 
-Kézdi (2003) proposes three test statistics corresponding to both null hypotheses. 
+Kezdi (2003) proposes three test statistics corresponding to both null hypotheses. 
 All three are asymptotically (N->infinity, T fixed) chi-squared with [1+K*(K+1)/2] 
 degrees of freedom.
 
@@ -58,7 +58,7 @@ degrees of freedom.
 
 {title:References}
 
-{p 4 8 2} Kézdi, G. (2003). Robust standard error estimation in fixed-effects panel models. Available at SSRN 596988.
+{p 4 8 2} Kezdi, G. (2003). Robust standard error estimation in fixed-effects panel models. Available at SSRN 596988.
 
 
 {title:Authors}
