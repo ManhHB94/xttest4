@@ -1,7 +1,7 @@
-v 1.4
+v 1.5
 d xttest4 — Test for heteroskedasticity in fixed-T panel data models
 d Author: Manh Hoang-Ba
-d Version: 1.4 17 Jan 2026
+d Version: 1.5 13 Jul 2026
 f xttest4.ado
 f xttest4.sthlp
 
