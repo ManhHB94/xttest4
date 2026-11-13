@@ -1,5 +1,5 @@
 {smcl}
-
+{* *! version 1.6, 12 Nov 2026}{...}
 help for {helpb xttest4}{right:Manh Hoang-Ba (hbmanh9492@gmail, {browse "https://www.youtube.com/@manhb.econometrics":Youtube}, {browse "https://www.facebook.com/ManhHB94/":Facebook}, {browse "https://manhb94econometrics.wordpress.com":Website})}
 
 
@@ -11,7 +11,8 @@ help for {helpb xttest4}{right:Manh Hoang-Ba (hbmanh9492@gmail, {browse "https:/
 
 {title:Description}
 
-{p 4 8 2}{cmd:xttest4} calculates LM statistics based on artificial regression designed to test the homokedasticity assumption for errors of fixed-effects models (Juhl & Sosa-Escudero, 2014) and composite errors of random-effects models (Montes-Rojas & Sosa-Escudero, 2011).
+{p 4 8 2}{cmd:xttest4} calculates LM statistics based on artificial regression designed to test the homokedasticity assumption for errors of fixed-effects models (Juhl & Sosa-Escudero, 2014) 
+and composite errors of random-effects models (Montes-Rojas & Sosa-Escudero, 2011).
 
 {p 4 8 2}In fixed-effects models, when option {cmd:kezdi} is specified, {cmd:xttest4} computes three test statistics (h1, h2, h3) for the three null hypotheses as described in Kezdi (2003):
 
@@ -33,7 +34,8 @@ help for {helpb xttest4}{right:Manh Hoang-Ba (hbmanh9492@gmail, {browse "https:/
 
 {p 8 8 2} H3 implies that e_it is homoskedastic (cross-sectionally and time dimensions) and e_it, x_it or both are serially uncorrelated.
 
-{p 4 8 2}Kezdi (2003) proposes three test statistics corresponding to both null hypotheses. All three are asymptotically (N->infinity, T fixed) chi-squared with [1+K*(K+1)/2] degrees of freedom.
+{p 4 8 2}Kezdi (2003) proposes three test statistics for the three null hypotheses. All three are asymptotically (N->infinity with T fixed) chi-squared with K*(K+1)/2 
+(under the nonsingularity condition) degrees of freedom, where K is the number of time-varying variables.
 
 {p 4 8 2}The latest version of {cmd:xttest4} can be found at the following link: {browse "https://github.com/ManhHB94/":https://github.com/ManhHB94/}{p_end}
 
@@ -46,7 +48,8 @@ help for {helpb xttest4}{right:Manh Hoang-Ba (hbmanh9492@gmail, {browse "https:/
 {p 4 8 2}{cmd:xttest4} is not an official Stata command.
 It is a free contribution to the research community.
 Please cite it as such: {p_end}
-{p 8 8 2}Manh Hoang-Ba, 2025. "XTTEST4: Stata module to calculate heterokedasticity tests for fixed effects models," Statistical Software Components S459492, Boston College Department of Economics, revised 15 Aug 2025.{p_end}
+
+{p 8 8 2}Manh Hoang-Ba, 2025. XTTEST4: Stata module to calculate heterokedasticity tests for fixed effects models. {browse "https://ideas.repec.org/c/boc/bocode/s459492.html":https://ideas.repec.org/c/boc/bocode/s459492.html}{p_end}
 
 
 {title:Examples}
